@@ -1,0 +1,109 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+   padding-top:150px;
+    overflow: hidden;
+    background-color: green;
+    width: 110%;
+  }
+  body {
+    background-image: url("images\ \(2\).jpeg");
+    background-repeat: initial;
+    background-size: cover;
+    height: 100px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:0;
+  }
+  
+  li {
+    float: left;
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 34px 86px 20px;
+    text-decoration: none;
+    font: 20px Arial,Sans-serif;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: darkblue;
+  }
+  
+        
+  a:active{
+              color: #00ffff;
+          }
+          
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 78px 16px 0px rgba(64, 41, 90, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+  div.absolute {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin-left: 10px;
+  }
+   #container1{
+                background-image:url("images.jpeg");
+                height:774px;
+                background-size:cover;
+                width:100%;
+                margin:0;
+                top:5; }
+              a{text-decoration:none;color:white;
+  }
+  h1{
+    text-align: center;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+  }
+  p{
+    font-size: 25px;
+    color:white;
+    text-align: center;  
+  }
+button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius: 5px;
+  border: 0;
+  }
